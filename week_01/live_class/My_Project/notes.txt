@@ -1,0 +1,4 @@
+Project planning:
+- Implement new features
+- Write documentation
+- Perform testing
