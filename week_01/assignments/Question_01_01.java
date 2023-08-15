@@ -6,5 +6,6 @@ public class Question_01_01 {
         System.out.println("Welcome to Java" + "\r\n" +
                 "Welcome to Computer Science" + "\r\n" +
                  "Programming is fun");
+        System.out.println();
     }
 }
