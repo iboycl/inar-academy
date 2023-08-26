@@ -23,5 +23,6 @@ public class Question_02_19 {
         double area = Math.sqrt(s * (s - side1) * (s - side2) * (s - side3));
 
         System.out.println("The area of the triangle is: " + String.format("%.2f", area));
+        // System.out.printf("The area of the triangle is: %.1f ", area);
     }
 }
