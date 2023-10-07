@@ -16,8 +16,5 @@ public class DisplayTheCurrentTime {
 
         System.out.println("Current time is " + currentHour + ":" + currentMinute + ":" + currentSecond + " GMT +3");
 
-
-
-
     }
 }
