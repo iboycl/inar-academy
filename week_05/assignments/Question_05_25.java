@@ -1,44 +1,25 @@
 public class Question_05_25 {
     public static void main(String[] args) {
 
-        double temp = Math.pow((-1), 10001) / 19999;
-        int count = 1;
-        for (int i = 9999; i >= 3; i-=2) {
-
-            if (count % 2 == 0) {
-                temp -= (double) 1 / i;
-            } else{
-                temp += (double) 1 / i;
-            }
-            count++;
+        double temp = 0;
+        for (int i = 1; i <= 9999; i++) {
+            temp += Math.pow(-1, i +1) / (2 * i - 1);
         }
-        double pi1 = 4 * (1 - temp);
+        double pi1 = 4 * temp;
 
-        temp = Math.pow((-1), 20001) / 39999;
-        count = 1;
-        for (int i = 19999; i >= 3; i-=2) {
+        temp = 0;
 
-            if (count % 2 == 0) {
-                temp -= (double) 1 / i;
-            } else{
-                temp += (double) 1 / i;
-            }
-            count++;
+        for (int i = 1; i <= 19999; i++) {
+            temp += Math.pow(-1, i +1) / (2 * i - 1);
         }
-        double pi2 = 4 * (1 - temp);
+        double pi2 = 4 * temp;
 
-        temp = Math.pow((-1), 100001) / 199999;
-        count = 1;
-        for (int i = 99999; i >= 3; i-=2) {
+        temp = 0;
 
-            if (count % 2 == 0) {
-                temp -= (double) 1 / i;
-            } else{
-                temp += (double) 1 / i;
-            }
-            count++;
+        for (int i = 1; i <= 99999; i++) {
+            temp += Math.pow(-1, i +1) / (2 * i - 1);
         }
-        double pi3 = 4 * (1 - temp);
+        double pi3 = 4 * temp;
 
         System.out.println("PI value for i = 10000: " + pi1);
         System.out.println("PI value for i = 20000: " + pi2);
