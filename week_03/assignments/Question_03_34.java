@@ -26,4 +26,4 @@ public class Question_03_34 {
 
         System.out.printf("(%.1f, %.1f) is %s the line segment from (%.1f, %.1f) to (%.1f, %.1f)", x2, y2, direction, x0, y0, x1, y1);
     }
-}
+} //2 5.5 4 -3 2.823529411764706 2

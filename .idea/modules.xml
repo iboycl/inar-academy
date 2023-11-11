@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Test.Test.iml" filepath="$PROJECT_DIR$/Test.Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week_11/assigments/assigments.iml" filepath="$PROJECT_DIR$/week_11/assigments/assigments.iml" />
       <module fileurl="file://$PROJECT_DIR$/week_03/assignment/assignment.iml" filepath="$PROJECT_DIR$/week_03/assignment/assignment.iml" />
       <module fileurl="file://$PROJECT_DIR$/week_02/assignments/assignments.iml" filepath="$PROJECT_DIR$/week_02/assignments/assignments.iml" />
       <module fileurl="file://$PROJECT_DIR$/week_02/live_class/live_class.iml" filepath="$PROJECT_DIR$/week_02/live_class/live_class.iml" />
@@ -13,6 +14,7 @@
       <module fileurl="file://$PROJECT_DIR$/week_05/week_06.iml" filepath="$PROJECT_DIR$/week_05/week_06.iml" />
       <module fileurl="file://$PROJECT_DIR$/week_07/week_07.iml" filepath="$PROJECT_DIR$/week_07/week_07.iml" />
       <module fileurl="file://$PROJECT_DIR$/week_08/week_08.iml" filepath="$PROJECT_DIR$/week_08/week_08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week_11/week_11.iml" filepath="$PROJECT_DIR$/week_11/week_11.iml" />
     </modules>
   </component>
 </project>

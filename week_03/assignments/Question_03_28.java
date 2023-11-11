@@ -34,9 +34,9 @@ public class Question_03_28 {
             System.out.println("r2 is inside r1");
         } else if (
                 r1Left > r2Left && r1Top < r2Top && r1Right >= r2Right && r1Bottom <= r2Bottom && r2Right > r1Left && r2Bottom < r1Top ||
-                r1Left > r2Left && r1Top >= r2Top && r1Right >= r2Right && r1Bottom > r2Bottom && r2Right > r1Left && r2Top < r1Bottom ||
+                r1Left > r2Left && r1Top >= r2Top && r1Right >= r2Right && r1Bottom > r2Bottom && r2Right > r1Left && r2Top > r1Bottom ||
                 r1Left <= r2Left && r1Top < r2Top && r1Right < r2Right && r1Bottom <= r2Bottom && r2Left < r1Right && r2Bottom < r1Top ||
-                r1Left <= r2Left && r1Top >= r2Top && r1Right < r2Right && r1Bottom > r2Bottom && r2Left < r1Right && r2Top < r1Bottom
+                r1Left <= r2Left && r1Top >= r2Top && r1Right < r2Right && r1Bottom > r2Bottom && r2Left < r1Right && r2Top > r1Bottom
                 ) {
             System.out.println("r2 overlaps r1");
         } else {
