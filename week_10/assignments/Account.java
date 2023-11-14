@@ -81,4 +81,11 @@ public class Account {
     public void deposit(double amount){
         balance += amount;
     }
+
+    @Override
+    public String toString() {
+        return  "ID : " + id + "\n" +
+                "Balance : $" + balance + "\n" +
+                "DateCreated : " + dateCreated;
+    }
 }

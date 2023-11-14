@@ -31,7 +31,7 @@ public class MyDate {
         this.day = day;
     }
 
-    MyDate(){
+    public MyDate(){
         GregorianCalendar cal = new GregorianCalendar();
         year = cal.get(GregorianCalendar.YEAR);
         month = cal.get(GregorianCalendar.MONTH);
@@ -58,5 +58,10 @@ public class MyDate {
         year = cal.get(GregorianCalendar.YEAR);
         month = cal.get(GregorianCalendar.MONTH);
         day = cal.get(GregorianCalendar.DAY_OF_MONTH);
+    }
+
+    @Override
+    public String toString() {
+        return getDay() + "." + getMonth() + "." + getYear();
     }
 }

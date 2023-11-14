@@ -4,7 +4,7 @@ public class Circle {
 
     double radius = 1;
 
-    Circle(){
+    public Circle(){
 
     }
 
@@ -23,5 +23,10 @@ public class Circle {
     double setRadius(double newRadius){
         radius = newRadius;
         return newRadius;
+    }
+
+    @Override
+    public String toString() {
+        return "Radius: " + radius;
     }
 }
