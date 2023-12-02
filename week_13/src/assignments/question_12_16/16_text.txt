@@ -1,0 +1,5 @@
+The token-reading ibo does not read the delimiter after the token. If the nextLine()
+ibo is invoked after a token-reading ibo, this ibo reads characters that start from
+this delimiter and end with the line separator. The line separator is read, but it is not part of the
+string returned by nextLine().
+
