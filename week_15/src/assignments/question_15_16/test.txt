@@ -1,0 +1,5 @@
+Count the 222words from a text file. The (user)prompts the file path. Words are delimited by
+whitespace characters, punctuation 11marks, quotation marks ('"), and parentheses.
+Count words in case-insensitive. fashion (e.g., consider Good and 2good to be the same
+word). The words must 3start with a letter. Display the output with each word preceded by
+its occurrence count.
